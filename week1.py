@@ -5,6 +5,7 @@
 # COMMAND ----------
 
 import numpy as np
+import math
 
 np.set_printoptions(edgeitems = 32)       #, linewidth = 150
 
@@ -67,8 +68,6 @@ np.array(ex3_res).reshape(res_shape_par, res_shape_par)
 
 # COMMAND ----------
 
-import numpy as np
-
 # from keras.preprocessing.sequence import pad_sequences
 # from keras.layers import ZeroPadding2D
 # from keras.backend import spatial_2d_padding
@@ -120,9 +119,6 @@ num_weights
 # MAGIC # Stridded Convolutions
 
 # COMMAND ----------
-
-import numpy as np
-import math
 
 np.set_printoptions(edgeitems = 32)
 
